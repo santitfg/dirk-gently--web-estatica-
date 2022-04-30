@@ -1,0 +1,106 @@
+/*  Catedra Drelichman
+    TP 1 - Informatica General | 2020
+    Santiago Tomas Fernandez Garcia 
+*/
+
+
+*{
+    background-color: black;
+    overflow: auto;
+}
+#contenedor {
+    background: inherit;
+    overflow: auto;
+    margin-left :  200px;
+}
+
+a:link{color: goldenrod;}
+a:hover{background: gray;}
+a.logo:hover{background:inherit }
+a:active{color: coral;}
+a:visited{ color:#333;}
+a:visited:active{ color: goldenrod;}
+
+
+.lateral {     
+
+    background: inherit;
+    position: fixed; 
+    /*position :relative;*/
+    /*width: auto;*/
+    overflow: auto;
+    max-width: 180px;
+    height: 100%;
+    min-width: 70px;
+    padding: 15px 15px 15px 15px;
+    text-align: right;
+}
+.lateral img{   /*revisar tamaño*/
+    min-width: 100px;
+}
+.list{
+    list-style: none;
+    background: inherit;
+}
+.txt{ width: 70%;}/* ajustar la barra lateral ? (¿para evitar el vacio a la derecha?)  */
+.season{ font-style: normal;}
+.cast{
+    min-width: 150px ;
+    width: 15% ;
+    height: 25%;
+ }
+ .columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 0.9em;
+}
+div.lateral  ul{
+    margin-top: 5em;
+    margin-right: 1em;
+}
+header ul li{
+    display: inline;
+    margin: 2em;
+}
+div ul li, div ul a{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.125em;
+    background: inherit;
+    text-decoration:none;
+}
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+ iframe{
+     margin-bottom: 3em;
+ }
+/* dos tipos de estructuras, la simple alineada a la izq y la flex utilizada para el reparto */
+main {
+    text-align: left;
+    font-family: 'Prompt', sans-serif;
+    color: lightsteelblue;
+}
+h1  {
+    font-family: 'Prompt', sans-serif;
+    font-size: 3.6em;
+    font-weight: 700;
+    font-style: italic;
+    color: goldenrod;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+h2{
+    font-size: 2.4em;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+main section {
+    padding: 1em;
+}
+main footer {
+    margin: 8em;
+}
